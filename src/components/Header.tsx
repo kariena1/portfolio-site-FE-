@@ -20,7 +20,7 @@ function Header() {
               key={item.to}
               to={item.to}
               className={({ isActive }) =>
-                isActive ? "text-slate-900" : "hover:text-slate-900"
+                isActive ? "text-slate-900 border-b-2 border-indigo-500 pb-1" : "hover:text-slate-900"
               }
             >
               {item.label}

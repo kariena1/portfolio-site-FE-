@@ -16,6 +16,7 @@ export default function ProjectSample() {
   const slideViewportRef = useRef<HTMLDivElement>(null);
   const draggingRef = useRef(false);
   const dragStartXRef = useRef(0);
+	
   const [dragOffsetPx, setDragOffsetPx] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [autoplayKey, setAutoplayKey] = useState(0);
