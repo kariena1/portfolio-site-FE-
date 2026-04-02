@@ -4,9 +4,9 @@ import Footer from "../components/Footer";
 
 function MainLayout() {
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900">
+    <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col">
       <Header />
-      <main className="mx-auto w-full max-w-6xl px-4 py-12 md:px-6 md:py-16">
+      <main className="mx-auto w-full flex-1 max-w-6xl px-4 py-12 md:px-6 md:py-16">
         <Outlet />
       </main>
       <Footer />

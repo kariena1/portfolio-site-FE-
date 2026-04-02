@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 
+// components
+import ProjectSample from "../components/main/project-sample";
+
 function HomePage() {
   return (
     <section className="grid gap-8 md:grid-cols-2 md:items-center">
@@ -27,9 +30,8 @@ function HomePage() {
           </Link>
         </div>
       </div>
-      <div className="rounded-2xl border border-slate-200 bg-white p-10 text-center text-slate-400">
-        Intro Image Area
-      </div>
+
+      <ProjectSample />
     </section>
   );
 }
