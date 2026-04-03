@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { mainData } from "../data/orders";
 
 // components
 import ProjectSample from "../components/main/project-sample";
@@ -9,11 +10,10 @@ function HomePage() {
       <div>
         <p className="text-sm font-semibold text-indigo-600">Frontend Developer</p>
         <h1 className="mt-2 text-4xl font-bold tracking-tight text-slate-900">
-          포트폴리오 사이트 기본 레이아웃
+          {mainData.Title}
         </h1>
-        <p className="mt-4 text-slate-600">
-          프로젝트/소개/연락처를 중심으로 구성된 SPA 초안입니다. 콘텐츠는
-          섹션별로 순차적으로 채워나가면 됩니다.
+        <p className="mt-4 text-slate-600 whitespace-pre-line">
+          {mainData.Description}
         </p>
         <div className="mt-6 flex gap-3">
           <Link

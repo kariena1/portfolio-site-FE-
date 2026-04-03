@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { projects } from "../data/projects";
 
 function ProjectsPage() {
+  
   return (
     <section className="py-10">
       <h2 className="text-3xl font-bold text-slate-900">Projects</h2>

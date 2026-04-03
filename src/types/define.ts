@@ -16,5 +16,3 @@ export const enum ServicePlatform {
   MACOS = "macos",
   LINUX = "linux",
 }
-
-
